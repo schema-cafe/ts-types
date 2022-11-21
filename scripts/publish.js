@@ -1,9 +1,6 @@
 const fs = require("fs");
 const { execSync } = require("child_process");
 
-// Build typescript files
-execSync("npm run build");
-
 // Write new version to package.json
 const packageFile = fs.readFileSync("package.json", "utf8");
 const version = JSON.parse(packageFile).version;
