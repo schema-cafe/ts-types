@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/schema-cafe/ts-types/issues"
   },
-  "homepage": "https://github.com/schema-cafe/ts-types#readme"
+  "homepage": "https://github.com/schema-cafe/ts-types#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
